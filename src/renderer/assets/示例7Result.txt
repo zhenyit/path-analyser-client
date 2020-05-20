@@ -1,0 +1,390 @@
+
+Times: 0 start:
+Run Time = 0ms
+NO. of cycles= 4
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 124 38 96 
+path 0-6-7-9-10: 17 9 102 
+path 0-1-2-5-10: 0 70 1 
+path 0-6-8-9-10: 30 8 7 
+path 0-1-3-5-10: 1 69 42 
+
+
+
+Times: 1 start:
+Run Time = 0ms
+NO. of cycles= 5
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 121 139 3 
+path 0-6-7-9-10: 38 5 30 
+path 0-1-2-5-10: 0 144 4 
+path 0-6-8-9-10: 88 3 9 
+path 0-1-3-5-10: 1 144 130 
+
+
+
+Times: 2 start:
+Run Time = 0ms
+NO. of cycles= 2
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 18 102 145 
+path 0-1-2-5-10: 0 81 16 
+path 0-1-3-5-10: 1 93 142 
+path 0-6-7-9-10: 71 5 129 
+path 0-6-8-9-10: 108 3 9 
+
+
+
+Times: 3 start:
+Run Time = 0ms
+NO. of cycles= 8
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 124 106 149 
+path 0-6-7-9-10: 65 3 112 
+path 0-1-3-5-10: 1 78 40 
+path 0-6-8-9-10: 5 3 9 
+path 0-1-2-5-10: 0 54 42 
+
+
+
+Times: 4 start:
+Run Time = 0ms
+NO. of cycles= 6
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 123 116 49 
+path 0-6-7-9-10: 51 0 51 
+path 0-6-8-9-10: 78 8 2 
+path 0-1-2-5-10: 0 13 35 
+path 0-1-3-5-10: 1 41 140 
+
+
+
+Times: 5 start:
+Run Time = 1ms
+NO. of cycles= 11
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 6 126 61 
+path 0-6-7-9-10: 106 0 29 
+path 0-1-3-5-10: 1 30 65 
+path 0-1-2-5-10: 0 25 34 
+path 0-6-8-9-10: 64 4 9 
+
+
+
+Times: 6 start:
+Run Time = 1ms
+NO. of cycles= 4
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 110 46 97 
+path 0-6-7-9-10: 32 10 44 
+path 0-6-8-9-10: 100 8 0 
+path 0-1-3-5-10: 1 92 47 
+path 0-1-2-5-10: 0 37 79 
+
+
+
+Times: 7 start:
+Run Time = 1ms
+NO. of cycles= 8
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 38 63 77 
+path 0-6-7-9-10: 143 2 88 
+path 0-1-2-5-10: 0 48 145 
+path 0-1-3-5-10: 1 82 139 
+path 0-6-8-9-10: 1 1 2 
+
+
+
+Times: 8 start:
+Run Time = 0ms
+NO. of cycles= 4
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 47 47 49 
+path 0-6-7-9-10: 38 7 100 
+path 0-1-3-5-10: 1 40 49 
+path 0-1-2-5-10: 0 39 40 
+path 0-6-8-9-10: 74 9 5 
+
+
+
+Times: 9 start:
+Run Time = 0ms
+NO. of cycles= 7
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 46 63 117 
+path 0-6-7-9-10: 85 2 110 
+path 0-1-3-5-10: 1 115 116 
+path 0-6-8-9-10: 89 9 7 
+path 0-1-2-5-10: 0 20 121 
+
+
+
+Times: 10 start:
+Run Time = 1ms
+NO. of cycles= 10
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 90 50 11 
+path 0-6-7-9-10: 81 8 46 
+path 0-1-3-5-10: 1 68 34 
+path 0-6-8-9-10: 61 4 2 
+path 0-1-2-5-10: 0 83 79 
+
+
+
+Times: 11 start:
+Run Time = 1ms
+NO. of cycles= 8
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 147 79 82 
+path 0-6-7-9-10: 132 8 86 
+path 0-1-3-5-10: 1 15 1 
+path 0-6-8-9-10: 9 10 4 
+path 0-1-2-5-10: 0 78 81 
+
+
+
+Times: 12 start:
+Run Time = 1ms
+NO. of cycles= 5
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 111 122 144 
+path 0-6-7-9-10: 39 6 135 
+path 0-1-3-5-10: 1 11 128 
+path 0-6-8-9-10: 117 5 10 
+path 0-1-2-5-10: 0 132 59 
+
+
+
+Times: 13 start:
+Run Time = 1ms
+NO. of cycles= 5
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 86 45 30 
+path 0-6-7-9-10: 148 7 140 
+path 0-1-3-5-10: 1 129 15 
+path 0-6-8-9-10: 101 10 4 
+path 0-1-2-5-10: 0 27 103 
+
+
+
+Times: 14 start:
+Run Time = 0ms
+NO. of cycles= 4
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 72 74 62 
+path 0-6-7-9-10: 77 0 124 
+path 0-6-8-9-10: 67 8 10 
+path 0-1-3-5-10: 1 97 130 
+path 0-1-2-5-10: 0 132 67 
+
+
+
+Times: 15 start:
+Run Time = 0ms
+NO. of cycles= 2
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 139 39 144 
+path 0-6-8-9-10: 24 5 5 
+path 0-6-7-9-10: 67 7 48 
+path 0-1-2-5-10: 0 140 30 
+path 0-1-3-5-10: 1 96 16 
+
+
+
+Times: 16 start:
+Run Time = 0ms
+NO. of cycles= 2
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 120 107 11 
+path 0-6-7-9-10: 73 8 22 
+path 0-1-2-5-10: 0 46 43 
+path 0-6-8-9-10: 46 1 8 
+path 0-1-3-5-10: 1 18 31 
+
+
+
+Times: 17 start:
+Run Time = 2ms
+NO. of cycles= 9
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 70 111 67 
+path 0-6-8-9-10: 115 8 8 
+path 0-6-7-9-10: 95 6 57 
+path 0-1-3-5-10: 1 65 30 
+path 0-1-2-5-10: 0 25 26 
+
+
+
+Times: 18 start:
+Run Time = 0ms
+NO. of cycles= 4
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 138 33 133 
+path 0-6-7-9-10: 125 7 42 
+path 0-1-3-5-10: 1 120 110 
+path 0-6-8-9-10: 110 1 9 
+path 0-1-2-5-10: 0 120 92 
+
+
+
+Times: 19 start:
+Run Time = 1ms
+NO. of cycles= 2
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 60 11 103 
+path 0-1-2-5-10: 0 12 24 
+path 0-6-7-9-10: 148 4 132 
+path 0-6-8-9-10: 94 9 8 
+path 0-1-3-5-10: 1 62 1 
+
+
+
+Times: 20 start:
+Run Time = 0ms
+NO. of cycles= 3
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 134 70 11 
+path 0-1-2-5-10: 0 120 136 
+path 0-1-3-5-10: 1 51 142 
+path 0-6-7-9-10: 127 6 29 
+path 0-6-8-9-10: 99 4 10 
+
+
+
+Times: 21 start:
+Run Time = 1ms
+NO. of cycles= 5
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 86 88 130 
+path 0-6-7-9-10: 63 1 36 
+path 0-6-8-9-10: 141 5 2 
+path 0-1-2-5-10: 0 128 44 
+path 0-1-3-5-10: 1 121 5 
+
+
+
+Times: 22 start:
+Run Time = 1ms
+NO. of cycles= 6
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 112 141 143 
+path 0-6-7-9-10: 34 5 90 
+path 0-1-3-5-10: 1 11 49 
+path 0-1-2-5-10: 0 75 123 
+path 0-6-8-9-10: 103 1 5 
+
+
+
+Times: 23 start:
+Run Time = 1ms
+NO. of cycles= 5
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 29 81 141 
+path 0-6-7-9-10: 108 7 17 
+path 0-1-3-5-10: 1 107 79 
+path 0-1-2-5-10: 0 54 54 
+path 0-6-8-9-10: 52 3 9 
+
+
+
+Times: 24 start:
+Run Time = 0ms
+NO. of cycles= 2
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 101 118 149 
+path 0-6-7-9-10: 128 8 38 
+path 0-1-2-5-10: 0 43 50 
+path 0-6-8-9-10: 110 8 2 
+path 0-1-3-5-10: 1 53 64 
+
+
+
+Times: 25 start:
+Run Time = 1ms
+NO. of cycles= 7
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 125 26 89 
+path 0-6-7-9-10: 28 9 134 
+path 0-1-2-5-10: 0 146 45 
+path 0-6-8-9-10: 89 4 6 
+path 0-1-3-5-10: 1 59 106 
+
+
+
+Times: 26 start:
+Run Time = 1ms
+NO. of cycles= 8
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 105 138 125 
+path 0-6-7-9-10: 98 3 55 
+path 0-1-3-5-10: 1 123 24 
+path 0-6-8-9-10: 79 4 6 
+path 0-1-2-5-10: 0 15 141 
+
+
+
+Times: 27 start:
+Run Time = 2ms
+NO. of cycles= 11
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 79 62 29 
+path 0-6-7-9-10: 88 7 69 
+path 0-1-3-5-10: 1 131 130 
+path 0-6-8-9-10: 100 4 7 
+path 0-1-2-5-10: 0 134 73 
+
+
+
+Times: 28 start:
+Run Time = 1ms
+NO. of cycles= 4
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 66 69 41 
+path 0-6-7-9-10: 44 3 57 
+path 0-1-2-5-10: 0 18 74 
+path 0-1-3-5-10: 1 16 16 
+path 0-6-8-9-10: 17 2 4 
+
+
+
+Times: 29 start:
+Run Time = 1ms
+NO. of cycles= 4
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-4-5-10: 135 128 18 
+path 0-6-7-9-10: 106 3 116 
+path 0-6-8-9-10: 75 1 2 
+path 0-1-3-5-10: 1 13 41 
+path 0-1-2-5-10: 0 116 58 
+
+

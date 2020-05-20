@@ -2,10 +2,10 @@
   <div class="home">
     <el-container>
       <el-aside width="300px">
-        <SideMenu />
+        <SideMenu @change-code="updateCode" />
       </el-aside>
       <el-main>
-        <CodeBlock style="height:50%" />
+        <CodeBlock style="height:50%" :selectNum="this.selectNum" />
         <ResultBlock />
       </el-main>
     </el-container>
@@ -19,8 +19,19 @@ import ResultBlock from "../components/ResultBlock";
 
 export default {
   name: "home-page",
+  data() {
+    return {
+      selectNum: ""
+    };
+  },
   components: { SideMenu, CodeBlock, ResultBlock },
-  methods: {},
+
+  methods: {
+    updateCode(val) {
+      this.selectNum = val;
+      console.log(this.selectNum);
+    }
+  }
 };
 </script>
 

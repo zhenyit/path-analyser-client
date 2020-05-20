@@ -1,0 +1,300 @@
+
+Times: 0 start:
+Run Time = 0ms
+NO. of cycles= 0
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 81 
+path 0-2-3: 0 
+
+
+
+Times: 1 start:
+Run Time = 0ms
+NO. of cycles= 2
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 35 
+path 0-2-3: 0 
+
+
+
+Times: 2 start:
+Run Time = 0ms
+NO. of cycles= 0
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 145 
+path 0-2-3: 0 
+
+
+
+Times: 3 start:
+Run Time = 1ms
+NO. of cycles= 8
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 69 
+path 0-2-3: 0 
+
+
+
+Times: 4 start:
+Run Time = 0ms
+NO. of cycles= 6
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 135 
+path 0-2-3: 0 
+
+
+
+Times: 5 start:
+Run Time = 0ms
+NO. of cycles= 3
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 50 
+path 0-2-3: 0 
+
+
+
+Times: 6 start:
+Run Time = 0ms
+NO. of cycles= 2
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 87 
+path 0-2-3: 0 
+
+
+
+Times: 7 start:
+Run Time = 0ms
+NO. of cycles= 2
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 7 
+path 0-2-3: 0 
+
+
+
+Times: 8 start:
+Run Time = 0ms
+NO. of cycles= 7
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 126 
+path 0-2-3: 0 
+
+
+
+Times: 9 start:
+Run Time = 1ms
+NO. of cycles= 7
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 11 
+path 0-2-3: 0 
+
+
+
+Times: 10 start:
+Run Time = 0ms
+NO. of cycles= 4
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 111 
+path 0-2-3: 0 
+
+
+
+Times: 11 start:
+Run Time = 0ms
+NO. of cycles= 0
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 88 
+path 0-2-3: 0 
+
+
+
+Times: 12 start:
+Run Time = 0ms
+NO. of cycles= 4
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 77 
+path 0-2-3: 0 
+
+
+
+Times: 13 start:
+Run Time = 0ms
+NO. of cycles= 2
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 132 
+path 0-2-3: 0 
+
+
+
+Times: 14 start:
+Run Time = 1ms
+NO. of cycles= 11
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 110 
+path 0-2-3: 0 
+
+
+
+Times: 15 start:
+Run Time = 0ms
+NO. of cycles= 0
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 37 
+path 0-2-3: 0 
+
+
+
+Times: 16 start:
+Run Time = 0ms
+NO. of cycles= 10
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 72 
+path 0-2-3: 0 
+
+
+
+Times: 17 start:
+Run Time = 0ms
+NO. of cycles= 7
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 18 
+path 0-2-3: 0 
+
+
+
+Times: 18 start:
+Run Time = 0ms
+NO. of cycles= 2
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 109 
+path 0-2-3: 0 
+
+
+
+Times: 19 start:
+Run Time = 0ms
+NO. of cycles= 2
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 94 
+path 0-2-3: 0 
+
+
+
+Times: 20 start:
+Run Time = 1ms
+NO. of cycles= 4
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 11 
+path 0-2-3: 0 
+
+
+
+Times: 21 start:
+Run Time = 0ms
+NO. of cycles= 0
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 94 
+path 0-2-3: 0 
+
+
+
+Times: 22 start:
+Run Time = 0ms
+NO. of cycles= 0
+Path Coverage Percentage= 100%
+Best Solution
+path 0-2-3: 0 
+path 0-1-3: 73 
+
+
+
+Times: 23 start:
+Run Time = 1ms
+NO. of cycles= 6
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 46 
+path 0-2-3: 0 
+
+
+
+Times: 24 start:
+Run Time = 0ms
+NO. of cycles= 0
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 105 
+path 0-2-3: 0 
+
+
+
+Times: 25 start:
+Run Time = 0ms
+NO. of cycles= 0
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 45 
+path 0-2-3: 0 
+
+
+
+Times: 26 start:
+Run Time = 0ms
+NO. of cycles= 0
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 28 
+path 0-2-3: 0 
+
+
+
+Times: 27 start:
+Run Time = 0ms
+NO. of cycles= 3
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 107 
+path 0-2-3: 0 
+
+
+
+Times: 28 start:
+Run Time = 0ms
+NO. of cycles= 2
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 130 
+path 0-2-3: 0 
+
+
+
+Times: 29 start:
+Run Time = 1ms
+NO. of cycles= 5
+Path Coverage Percentage= 100%
+Best Solution
+path 0-1-3: 133 
+path 0-2-3: 0 
+
+
