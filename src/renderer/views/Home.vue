@@ -2,11 +2,11 @@
   <div class="home">
     <el-container>
       <el-aside width="300px">
-        <SideMenu @change-code="updateCode" />
+        <SideMenu @change-code="updateCode" @get-result="showResult" />
       </el-aside>
       <el-main>
         <CodeBlock style="height:50%" :selectNum="this.selectNum" />
-        <ResultBlock />
+        <ResultBlock :imgNum="this.imgNum" :showImg="this.showImg" />
       </el-main>
     </el-container>
   </div>
@@ -21,7 +21,11 @@ export default {
   name: "home-page",
   data() {
     return {
-      selectNum: ""
+      loading: true,
+      centerDialogVisible: true,
+      selectNum: "",
+      showImg: false,
+      imgNum: "1"
     };
   },
   components: { SideMenu, CodeBlock, ResultBlock },
@@ -30,6 +34,11 @@ export default {
     updateCode(val) {
       this.selectNum = val;
       console.log(this.selectNum);
+    },
+    showResult(val) {
+      this.showImg = true;
+      this.imgNum = val;
+      console.log("show result" + val);
     }
   }
 };

@@ -72,6 +72,43 @@ app.get("/generateGraph", function(req, res) {
   });
 });
 
+app.get("/getReport", function(req, res) {
+  var exampleID = req.query.exampleID;
+  var reportPath = "";
+  switch (exampleID) {
+    case "1":
+      reportPath = result.code1;
+      break;
+    case "2":
+      reportPath = result.code2;
+      break;
+    case "3":
+      reportPath = result.code3;
+      break;
+    case "4":
+      reportPath = result.code4;
+      break;
+    case "5":
+      reportPath = result.code5;
+      break;
+    case "6":
+      reportPath = result.code6;
+      break;
+    case "7":
+      reportPath = result.code7;
+      break;
+    case "8":
+      reportPath = result.code8;
+      break;
+    default:
+      reportPath = result.code1;
+  }
+  fs.readFile(reportPath, "utf-8", (err, data) => {
+    if (err) throw err;
+    console.log(data);
+    res.json({ report: data });
+  });
+});
 app.listen(port, () =>
   console.log(`Example app listening at http://localhost:${port}`)
 );
@@ -308,4 +345,15 @@ int Factorial(int input)
   return Factorial(input - 1) * input;
 }
 `,
+};
+
+var result = {
+  code1: "./controller/1Result.txt",
+  code2: "./controller/2Result.txt",
+  code3: "./controller/3Result.txt",
+  code4: "./controller/4Result.txt",
+  code5: "./controller/5Result.txt",
+  code6: "./controller/6Result.txt",
+  code7: "./controller/7Result.txt",
+  code8: "./controller/8Result.txt",
 };

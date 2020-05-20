@@ -1,11 +1,19 @@
-int TestIF(int a)
+int middle(double a, double b, double c)
 {
-  if(a)
-  {
-  a = 1;
-  }
-  else{
-  a = 0
-}
-  return 0;
+    if(((a<b)&&(b<c))||((c<b)&&(b<a)))
+    {
+        return b;
+    }
+    else if(((a<c)&&(c<b))||((b<c)&&(c<a)))
+    {
+        return c;
+    }
+    else if(((b<a)&&(a<c))||((c<a)&&(a<b)))
+    {
+        return a;
+    }
+    else
+    {
+        return;
+    }
 }

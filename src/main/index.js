@@ -11,6 +11,7 @@ if (process.env.NODE_ENV !== "development") {
 }
 
 let mainWindow;
+
 const winURL =
   process.env.NODE_ENV === "development"
     ? `http://localhost:9080`
@@ -31,6 +32,7 @@ function createWindow() {
   mainWindow.on("closed", () => {
     mainWindow = null;
   });
+  mainWindow.webContents.closeDevTools();
 }
 
 app.on("ready", createWindow);

@@ -9,7 +9,7 @@
       @input="onCmCodeChange"
       style="height: 100%"
     />
-    <el-button type="success" @click="uploadCode">上传代码</el-button>
+    <!-- <el-button type="success" @click="uploadCode">上传代码</el-button> -->
   </div>
 </template>
 

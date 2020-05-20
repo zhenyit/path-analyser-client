@@ -6,7 +6,13 @@
           class="collapse-content"
         >本程序可用于自动生成测试用例，在示例中选择合适的示例标签，上传后系统会调用差分进化算法，通过分析程序的路径生成程序控制流程图，并自动生成测试用例。</div>
       </el-collapse-item>
-      <el-collapse-item title="示例" name="2">
+      <el-collapse-item
+        title="示例"
+        name="2"
+        v-loading="loading"
+        element-loading-text="正在生成测试用例"
+        element-loading-spinner="el-icon-loading"
+      >
         <el-select
           class="collapse-content"
           v-model="value"
@@ -20,13 +26,30 @@
             :value="item.value"
           ></el-option>
         </el-select>
+
+        <el-divider>
+          <i class="el-icon-setting"></i>
+        </el-divider>
+        <el-divider content-position="center">自定义参数</el-divider>
+        <el-input
+          placeholder="请输入终止条件(选填)"
+          v-model="input"
+          class="input-with-select"
+          style="width:92%; margin-left:13px;"
+        >
+          <el-select v-model="select" slot="prepend" placeholder="请选择" style="width:105px;">
+            <el-option label="迭代次数" value="1"></el-option>
+            <el-option label="路径覆盖率" value="2"></el-option>
+            <el-option label="运行次数" value="3"></el-option>
+          </el-select>
+        </el-input>
         <div class="submit-btn">
           <el-button type="primary" plain @click="uploadCode">生成测试用例</el-button>
         </div>
       </el-collapse-item>
       <el-collapse-item title="文档" name="3">
         <div class="collapse-content">
-          <a href="https://github.com/zhenyit/path-analyser-pc">path-analyser</a>
+          <p>https://github.com/zhenyit/path-analyser-pc</p>
         </div>
       </el-collapse-item>
       <el-collapse-item title="Github" name="4">
@@ -45,6 +68,9 @@ export default {
   name: "SideMenu",
   data() {
     return {
+      input: "",
+      loading: false,
+      select: "1",
       activeNames: ["2"],
       options: [
         {
@@ -88,11 +114,20 @@ export default {
       console.log(val);
     },
     uploadCode() {
-      let data = { code: this.$store.state.code };
-      http.post("/writeFile", data).then(function(response) {
-        console.log(response);
-      });
-      console.log(this.$store.state.code);
+      var that = this;
+      this.loading = true;
+      http
+        .get("/generateGraph", {
+          params: {
+            exampleID: this.value
+          },
+          timeout: 100000
+        })
+        .then(function(response) {
+          console.log(response);
+          that.loading = false;
+          that.$emit("get-result", that.value);
+        });
     },
     changeCode() {
       // this.$store.commit("setCode", 10);
